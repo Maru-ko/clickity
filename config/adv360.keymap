@@ -60,7 +60,7 @@
 
         layer_fn {
             bindings = <
-                &kp F1              &kp F2                  &kp F3             &kp F4                    &kp F5                &kp F6                   &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+                &kp F1              &kp F2                  &kp F3             &kp F4                    &kp F5                &kp F6                   &trans                                                  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
         &macro_line_up  &macro_delete_line  &macro_full_screenshot  &macro_window_scr  &macro_window_screenshot          &macro_turbo                    &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
  &macro_move_line_down              &trans   &macro_copy_line_down      &macro_parens           &macro_brackets      &macro_miss_ctrl                    &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
                 &trans         &macro_undo                  &trans      &macro_ctrl_c       &macro_text_snippet  &macro_video_capture                                   &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
