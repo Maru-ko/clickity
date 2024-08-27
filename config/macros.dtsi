@@ -44,5 +44,11 @@
     compatible = "zmk,behavior-macro";
     label = "macro_full_screenshot";
     #binding-cells = <0>;
-    bindings = <&kp LS(LCMD(3))>;
+    bindings = <&kp LCMD(LS)>, <%kp 3>;
+  };
+  macro_full_screenshotx: macro_full_screenshotx {
+    compatible = "zmk,behavior-macro";
+    label = "macro_full_screenshotx";
+    #binding-cells = <0>;
+    bindings = <&kp LCMD(LS(3))>;
   };
