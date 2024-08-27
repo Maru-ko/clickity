@@ -44,11 +44,11 @@ macro_full_screenshot: macro_full_screenshot {
   compatible = "zmk,behavior-macro";
   label = "macro_full_screenshot";
   #binding-cells = <0>;
-  bindings = <&kp LC(LS(3))>;
+  bindings = <&kp LG(LS(3))>;
 };
 macro_window_screenshot: macro_window_screenshot {
   compatible = "zmk,behavior-macro";
   label = "macro_window_screenshot";
   #binding-cells = <0>;
-  bindings = <&kp LC(LS(4))>, <&kp SPACE>;
+  bindings = <&kp LG(LS(4))>, <&kp SPACE>;
 };
