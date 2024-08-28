@@ -40,15 +40,15 @@ label = "macro_turbo";
 #binding-cells = <0>;
 bindings = <&kp LC(LA(L))>;
 };
-macro_macro_: macro_macro_{
+macro_full_scr: macro_full_scr{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_";
+label = "macro_full_scr";
 #binding-cells = <0>;
 bindings = <&kp LG(LS(N3))>;
 };
-macro_macro_: macro_macro_{
+macro_window_scr_s: macro_window_scr_s{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_";
+label = "macro_window_scr_s";
 #binding-cells = <0>;
 bindings = <&kp LG(LS(N4))>, <&kp SPACE>;
 };
