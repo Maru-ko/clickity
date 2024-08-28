@@ -56,7 +56,7 @@ macro_window_scr: macro_window_scr{
 compatible = "zmk,behavior-macro";
 label = "macro_window_scr";
 #binding-cells = <0>;
-bindings = <&kp LG(LS(4))>, <&kp SPACE>;
+bindings = <&kp LG(LS(4))>;
 };
 macro_text_snippet: macro_text_snippet{
 compatible = "zmk,behavior-macro";
