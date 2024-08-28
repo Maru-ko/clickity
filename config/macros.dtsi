@@ -40,35 +40,35 @@ label = "macro_turbo";
 #binding-cells = <0>;
 bindings = <&kp LC(LA(L))>;
 };
-macro_full_screenshot: macro_full_screenshot{
-compatible = "zmk,behavior-macro";
-label = "macro_full_screenshot";
-#binding-cells = <0>;
-bindings = <&kp LG(LS(3))>;
+macro_full_screenshot {
+    compatible = "zmk,behavior-macro";
+    label = "macro_full_screenshot";
+    #binding-cells = <0>;
+    bindings = <&kp LG(LS(N3))>;
 };
-macro_window_screenshot: macro_window_screenshot{
-compatible = "zmk,behavior-macro";
-label = "macro_window_screenshot";
-#binding-cells = <0>;
-bindings = <&kp LG(LS(4))>, <&kp SPACE>;
+macro_window_screenshot {
+    compatible = "zmk,behavior-macro";
+    label = "macro_window_screenshot";
+    #binding-cells = <0>;
+    bindings = <&kp LG(LS(N4))>, <&kp SPACE>;
 };
 macro_window_scr: macro_window_scr{
 compatible = "zmk,behavior-macro";
 label = "macro_window_scr";
 #binding-cells = <0>;
-bindings = <&kp LG(LS(4))>;
+bindings = <&kp LG(LS(N4))>;
 };
 macro_text_snippet: macro_text_snippet{
 compatible = "zmk,behavior-macro";
 label = "macro_text_snippet";
 #binding-cells = <0>;
-bindings = <&kp LG(LS(2))>;
+bindings = <&kp LG(LS(N2))>;
 };
 macro_video_capture: macro_video_capture{
 compatible = "zmk,behavior-macro";
 label = "macro_video_capture";
 #binding-cells = <0>;
-bindings = <&kp LG(LS(5))>;
+bindings = <&kp LG(LS(N5))>;
 };
 macro_line_up: macro_line_up{
 compatible = "zmk,behavior-macro";
