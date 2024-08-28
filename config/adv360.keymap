@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
-                &kp F1              &kp F2                 &kp F3         &kp F4           &kp F5            &kp F6                   &trans                                                  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-        &macro_line_up  &macro_delete_line                 &trans         &trans           &trans      &macro_turbo                   &trans                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &macro_move_line_down              &trans  &macro_copy_line_down  &macro_parens  &macro_brackets  &macro_miss_ctrl                    &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
-                &trans         &macro_undo                 &trans  &macro_ctrl_c           &trans            &trans                                   &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
-                &trans         &macro_redo                 &trans         &trans           &trans                              &kp BACKSPACE  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
+                &kp F1              &kp F2                 &kp F3                  &kp F4                   &kp F5            &kp F6                   &trans                                                  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+   &macro_move_line_up  &macro_delete_line                 &trans  &macro_app_window_left  &macro_app_window_right      &macro_turbo                   &trans                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
+ &macro_move_line_down              &trans  &macro_copy_line_down           &macro_parens          &macro_brackets  &macro_miss_ctrl                    &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
+                &trans         &macro_undo                 &trans           &macro_ctrl_c                   &trans            &trans                                   &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
+                &trans         &macro_redo                 &trans                  &trans                   &trans                              &kp BACKSPACE  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
         };
 
