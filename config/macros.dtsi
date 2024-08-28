@@ -40,17 +40,17 @@ label = "macro_turbo";
 #binding-cells = <0>;
 bindings = <&kp LC(LA(L))>;
 };
-macro_full_screenshot {
-    compatible = "zmk,behavior-macro";
-    label = "macro_full_screenshot";
-    #binding-cells = <0>;
-    bindings = <&kp LG(LS(N3))>;
+macro_macro_: macro_macro_{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_";
+#binding-cells = <0>;
+bindings = <&kp LG(LS(N3))>;
 };
-macro_window_screenshot {
-    compatible = "zmk,behavior-macro";
-    label = "macro_window_screenshot";
-    #binding-cells = <0>;
-    bindings = <&kp LG(LS(N4))>, <&kp SPACE>;
+macro_macro_: macro_macro_{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_";
+#binding-cells = <0>;
+bindings = <&kp LG(LS(N4))>, <&kp SPACE>;
 };
 macro_window_scr: macro_window_scr{
 compatible = "zmk,behavior-macro";
