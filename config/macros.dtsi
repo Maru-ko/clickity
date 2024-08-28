@@ -40,7 +40,7 @@ label = "macro_turbo";
 #binding-cells = <0>;
 bindings = <&kp LC(LA(L))>;
 };
-macro_move_line_up: macro_move_line_up{
+macro_move_line_up: macro_movw_line_up{
 compatible = "zmk,behavior-macro";
 label = "macro_move_line_up";
 #binding-cells = <0>;
@@ -100,6 +100,12 @@ label = "macro_closing_bracket";
 #binding-cells = <0>;
 bindings = <&kp LG(LS(BACKSLASH))>;
 };
+macro_copy_line_down: macro_copy_line_down{
+compatible = "zmk,behavior-macro";
+label = "macro_copy_line_down";
+#binding-cells = <0>;
+bindings = <&kp LA(LS(DOWN))>;
+};
 macro_undo: macro_undo{
 compatible = "zmk,behavior-macro";
 label = "macro_undo";
@@ -111,10 +117,4 @@ compatible = "zmk,behavior-macro";
 label = "macro_redo";
 #binding-cells = <0>;
 bindings = <&kp LG(LS(Z))>;
-};
-macro_copy_line_down: macro_copy_line_down{
-compatible = "zmk,behavior-macro";
-label = "macro_copy_line_down";
-#binding-cells = <0>;
-bindings = <&kp LA(LS(DOWN))>;
 };
